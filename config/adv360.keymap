@@ -123,13 +123,13 @@
             >;
         };
 
-        layer_7 {
+        symbols {
             bindings = <
-&trans  &trans     &trans            &trans          &trans                &trans     &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp ESC    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp MINUS  &trans            &trans          &trans                &trans     &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp PLUS   &trans            &trans          &trans                &trans                     &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans     &trans            &trans          &trans                           &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans            &trans          &trans                &trans       &trans                                                 &trans  &trans     &trans                 &trans           &trans             &trans     &trans
+&trans  &kp ESC    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE    &trans                                                 &trans  &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GRAVE  &trans
+&trans  &kp MINUS  &kp ASTRK         &kp EQUAL       &kp UNDER             &kp DOLLAR   &trans  &trans          &trans      &trans  &trans     &trans  &kp HASH   &sk RSHIFT             &sk RIGHT_ALT    &trans             &trans     &trans
+&trans  &kp PLUS   &kp PIPE          &kp AT          &kp KP_DIVIDE         &kp PERCENT                          &trans      &trans                     &trans     &trans                 &trans           &trans             &trans     &trans
+&trans  &trans     &trans            &trans          &trans                             &sl 5   &kp LEFT_SHIFT  &trans      &trans  &kp SPACE  &trans             &trans                 &trans           &trans             &trans     &trans
             >;
         };
     };
