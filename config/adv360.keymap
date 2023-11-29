@@ -129,7 +129,7 @@
 &trans  &kp ESC    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE    &trans                                                 &trans  &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp RIGHT_BRACKET  &kp GRAVE      &trans
 &trans  &kp MINUS  &kp ASTRK         &kp EQUAL       &kp UNDER             &kp DOLLAR   &trans  &trans          &trans      &trans  &trans     &trans  &kp HASH   &sk RSHIFT             &sk RIGHT_CONTROL  &sk RIGHT_ALT      &sk RIGHT_GUI  &trans
 &trans  &kp PLUS   &kp PIPE          &kp AT          &kp KP_DIVIDE         &kp PERCENT                          &trans      &trans                     &trans     &kp BACKSLASH          &kp AMPERSAND      &kp QUESTION       &sk EXCL       &trans
-&trans  &trans     &trans            &trans          &trans                             &sl 5   &kp LEFT_SHIFT  &trans      &trans  &kp SPACE  &trans             &trans                 &trans             &trans             &trans         &trans
+&trans  &trans     &trans            &trans          &trans                             &sl 5   &kp LEFT_SHIFT  &trans      &trans  &kp SPACE  &sl 7              &trans                 &trans             &trans             &trans         &trans
             >;
         };
     };
