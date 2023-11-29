@@ -109,7 +109,7 @@
 &kp TAB               &kp TAB       &kp W         &kp F             &kp P          &kp C_VOLUME_UP    &to 0                                                 &kp GRAVE  &kp C_RESET   &kp HOME        &kp UP_ARROW  &kp END           &kp DELETE         &kp BSLH
 &kp LC(LEFT_CONTROL)  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LSHIFT     &kp C_VOLUME_DOWN  &trans  &trans      &trans      &trans     &trans     &mo 4      &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp BACKSPACE      &kp SQT
 &kp BACKSPACE         &kp Z         &kp X         &kp K_BACK        &kp K_FORWARD  &kp K_PLAY_PAUSE                       &trans      &kp SLASH                        &kp INSERT    &kp PAGE_DOWN   &kp PAGE_UP   &kp PAGE_UP       &kp ENTER          &trans
-&mo 2                 &kp GRAVE     &kp CAPS      &kp LEFT          &kp RIGHT                         &trans  &kp LSHIFT  &trans      &lt 1 DOT  &kp SPACE  &sl 7                    &kp UP          &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&mo 2                 &kp GRAVE     &kp CAPS      &kp LEFT          &kp RIGHT                         &sl 5   &kp LSHIFT  &trans      &lt 1 DOT  &kp SPACE  &sl 7                    &kp UP          &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
             >;
         };
 
