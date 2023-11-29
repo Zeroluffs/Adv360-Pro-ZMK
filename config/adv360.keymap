@@ -65,11 +65,11 @@
 
         layer_keypad {
             bindings = <
-&kp EQUAL  &kp N1            &kp N2    &kp N3    &kp N4     &kp N5             &trans                                                   &mo 3      &kp N6  &kp KP_NUM       &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp LEFT_BRACKET  &kp N7    &kp N8    &kp N9     &kp RIGHT_BRACKET  &none                                                    &none      &kp Y   &kp KP_N7        &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp SEMI          &kp N4    &kp N5    &kp N6     &kp EQUAL          &none   &kp LCTRL  &kp LALT        &kp LGUI   &kp RCTRL  &none      &kp H   &kp RIGHT_SHIFT  &kp RCTRL     &kp RIGHT_ALT  &kp RGUI         &kp SQT
-&kp LSHFT  &kp GRAVE         &kp N1    &kp N2    &kp N3     &kp BSLH                              &kp HOME        &kp PG_UP                        &kp N   &kp KP_N1        &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 2      &kp GRAVE         &kp CAPS  &kp LEFT  &kp RIGHT                     &kp N0  &kp MINUS  &kp PERIOD      &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP           &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
+&kp EQUAL  &kp N1        &kp N2        &kp N3            &kp N4        &kp N5   &trans                                                    &mo 3   &kp N6   &kp KP_NUM       &kp KP_EQUAL       &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+&kp TAB    &kp N7        &kp N5        &kp NUMBER_3      &kp NUMBER_1  &kp N9   &none                                                     &none   &kp N8   &kp N0           &kp NUMBER_2       &kp NUMBER_4   &kp NUMBER_6     &kp BSLH
+&kp ESC    &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &kp LSHIFT    &kp F11  &none   &kp LCTRL   &kp LALT        &kp LGUI   &kp RCTRL  &none   &kp F10  &sk RIGHT_SHIFT  &sk RIGHT_CONTROL  &sk RIGHT_ALT  &kp RGUI         &kp SQT
+&kp LSHFT  &kp F7        &kp F5        &kp F3            &kp F1        &kp F9                       &kp HOME        &kp PG_UP                     &kp F8   &kp F12          &kp F2             &kp F4         &kp F6           &kp RSHFT
+&mo 2      &kp GRAVE     &kp CAPS      &kp LEFT          &kp RIGHT              &trans  &kp LSHIFT  &kp PERIOD      &kp PG_DN  &kp SPACE  &trans           &kp UP           &kp DOWN           &kp KP_DOT     &kp RBKT         &mo 2
             >;
         };
 
@@ -105,11 +105,11 @@
 
         nav {
             bindings = <
-&kp EQUAL             &kp F1      &kp F2              &trans           &trans                &trans  &trans                                                    &mo 3      &trans        &trans          &trans         &trans            &trans             &kp MINUS
-&kp TAB               &kp Q       &kp W               &kp F            &kp P                 &kp B   &to 0                                                     &kp GRAVE  &kp K_REDO    &kp K_PASTE     &kp UP_ARROW   &kp K_COPY        &kp K_CUT          &kp BSLH
-&kp LC(LEFT_CONTROL)  &hm LGUI A  &hm LA(LEFT_ALT) R  &hm LC(LCTRL) S  &hm LS(LEFT_SHIFT) T  &kp G   &trans   &trans         &trans      &trans     &trans     &mo 4      &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN       &kp RIGHT         &kp K_UNDO         &kp SQT
-&kp BACKSPACE         &kp Z       &kp X               &kp C            &kp D                 &kp V                           &trans      &kp SLASH                        &kp INSERT    &kp HOME        &kp PAGE_DOWN  &kp PAGE_UP       &kp END            &trans
-&mo 2                 &kp GRAVE   &kp CAPS            &kp LEFT         &kp RIGHT                     &kp TAB  &kp BACKSPACE  &trans      &lt 1 DOT  &kp SPACE  &kp ENTER                &kp UP          &kp DOWN       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp EQUAL             &kp F1        &kp F2        &trans            &trans         &trans             &trans                                                &mo 3      &trans        &trans          &trans        &trans            &trans             &kp MINUS
+&kp TAB               &kp TAB       &kp W         &kp F             &kp P          &kp C_VOLUME_UP    &to 0                                                 &kp GRAVE  &kp C_RESET   &kp HOME        &kp UP_ARROW  &kp END           &kp DELETE         &kp BSLH
+&kp LC(LEFT_CONTROL)  &sk LEFT_GUI  &sk LEFT_ALT  &sk LEFT_CONTROL  &sk LSHIFT     &kp C_VOLUME_DOWN  &trans  &trans      &trans      &trans     &trans     &mo 4      &kp CAPSLOCK  &kp LEFT_ARROW  &kp DOWN      &kp RIGHT         &kp BACKSPACE      &kp SQT
+&kp BACKSPACE         &kp Z         &kp X         &kp K_BACK        &kp K_FORWARD  &kp K_PLAY_PAUSE                       &trans      &kp SLASH                        &kp INSERT    &kp PAGE_DOWN   &kp PAGE_UP   &kp PAGE_UP       &kp ENTER          &trans
+&mo 2                 &kp GRAVE     &kp CAPS      &kp LEFT          &kp RIGHT                         &trans  &kp LSHIFT  &trans      &lt 1 DOT  &kp SPACE  &sl 7                    &kp UP          &kp DOWN      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
             >;
         };
 
@@ -125,12 +125,21 @@
 
         symbols {
             bindings = <
-&trans  &trans     &trans            &trans          &trans                &trans       &trans                                                 &trans  &trans     &trans                 &trans           &trans             &trans     &trans
-&trans  &kp ESC    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE    &trans                                                 &trans  &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GRAVE  &trans
-&trans  &kp MINUS  &kp ASTRK         &kp EQUAL       &kp UNDER             &kp DOLLAR   &trans  &trans          &trans      &trans  &trans     &trans  &kp HASH   &sk RSHIFT             &sk RIGHT_ALT    &trans             &trans     &trans
-&trans  &kp PLUS   &kp PIPE          &kp AT          &kp KP_DIVIDE         &kp PERCENT                          &trans      &trans                     &trans     &trans                 &trans           &trans             &trans     &trans
-&trans  &trans     &trans            &trans          &trans                             &sl 5   &kp LEFT_SHIFT  &trans      &trans  &kp SPACE  &trans             &trans                 &trans           &trans             &trans     &trans
+&trans  &trans     &trans            &trans          &trans                &trans       &trans                                                 &trans  &trans     &trans                 &trans             &trans             &trans         &trans
+&trans  &kp ESC    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE    &trans                                                 &trans  &kp CARET  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp RIGHT_BRACKET  &kp GRAVE      &trans
+&trans  &kp MINUS  &kp ASTRK         &kp EQUAL       &kp UNDER             &kp DOLLAR   &trans  &trans          &trans      &trans  &trans     &trans  &kp HASH   &sk RSHIFT             &sk RIGHT_CONTROL  &sk RIGHT_ALT      &sk RIGHT_GUI  &trans
+&trans  &kp PLUS   &kp PIPE          &kp AT          &kp KP_DIVIDE         &kp PERCENT                          &trans      &trans                     &trans     &kp BACKSLASH          &kp AMPERSAND      &kp QUESTION       &sk EXCL       &trans
+&trans  &trans     &trans            &trans          &trans                             &sl 5   &kp LEFT_SHIFT  &trans      &trans  &kp SPACE  &trans             &trans                 &trans             &trans             &trans         &trans
             >;
+        };
+    };
+
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+
+        num {
+            if-layers = <5 7>;
+            then-layer = <1>;
         };
     };
 };
