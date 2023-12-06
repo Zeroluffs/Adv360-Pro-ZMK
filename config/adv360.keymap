@@ -115,11 +115,11 @@
 
         media {
             bindings = <
-&trans  &trans        &trans        &trans            &trans          &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans            &trans          &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans            &trans          &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans        &trans        &trans            &trans                  &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans            &trans          &trans  &trans                                              &trans       &trans  &trans      &trans        &trans        &trans         &trans
+&trans  &trans        &trans        &trans            &trans          &trans  &trans                                              &trans       &trans  &trans      &trans        &trans        &trans         &trans
+&trans  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &trans  &trans  &trans  &trans      &trans      &trans      &trans       &trans  &kp K_BACK  &kp C_VOL_DN  &kp C_VOL_UP  &kp K_FORWARD  &trans
+&trans  &trans        &trans        &trans            &trans          &trans                  &trans      &trans                               &trans  &trans      &trans        &trans        &trans         &trans
+&trans  &trans        &trans        &trans            &trans                  &trans  &trans  &trans      &kp K_MUTE  &kp K_STOP  &kp C_PAUSE          &trans      &trans        &trans        &trans         &trans
             >;
         };
     };
