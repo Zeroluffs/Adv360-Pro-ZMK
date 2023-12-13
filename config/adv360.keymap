@@ -77,6 +77,15 @@
     macros {
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        combo_enter {
+            bindings = <&kp ENTER>;
+            key-positions = <65 70>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
