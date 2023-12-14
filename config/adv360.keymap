@@ -133,11 +133,11 @@
 
         nav {
             bindings = <
-&trans  &trans    &trans   &trans           &trans       &trans  &trans                                      &trans  &trans  &trans          &trans           &trans     &trans  &trans
-&trans  &trans    &trans   &trans           &trans       &trans  &trans                                      &trans  &trans  &trans          &kp UP_ARROW     &trans     &trans  &trans
-&trans  &kp HOME  &kp END  &kp PRINTSCREEN  &trans       &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT  &trans  &trans
-&trans  &trans    &trans   &kp K_COPY       &kp K_PASTE  &trans                  &trans      &trans                  &trans  &kp C_VOL_DN    &kp C_VOLUME_UP  &trans     &trans  &trans
-&trans  &trans    &trans   &trans           &trans               &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans     &trans  &trans
+&trans  &trans         &trans            &trans           &trans       &trans     &trans                                           &trans  &trans  &trans          &trans           &trans     &trans  &trans
+&trans  &kp DELETE     &trans            &trans           &kp UNDER    &kp PLUS   &kp PAGE_UP                                      &trans  &trans  &trans          &kp UP_ARROW     &trans     &trans  &trans
+&trans  &kp HOME       &kp END           &kp PRINTSCREEN  &kp MINUS    &kp EQUAL  &kp PG_DN    &trans  &trans      &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT  &trans  &trans
+&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp K_COPY       &kp K_PASTE  &kp SEMI                        &trans      &trans                  &trans  &kp C_VOL_DN    &kp C_VOLUME_UP  &trans     &trans  &trans
+&trans  &trans         &trans            &trans           &trans                  &trans       &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans     &trans  &trans
             >;
         };
     };
