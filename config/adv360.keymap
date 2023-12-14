@@ -82,6 +82,13 @@
             ignore-modifiers;
             label = "STICKY_KEY_QUICK_RELEASE";
         };
+
+        td_mt: tap_dance_mod_tap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MOD_TAP";
+            #binding-cells = <0>;
+            bindings = <&skq LEFT_SHIFT>, <&kp CAPSLOCK>;
+        };
     };
 
     macros {
@@ -94,6 +101,11 @@
             bindings = <&kp ENTER>;
             key-positions = <65 70>;
         };
+
+        combo_esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <41 42>;
+        };
     };
 
     keymap {
@@ -101,11 +113,11 @@
 
         default_layer {
             bindings = <
-&kp GRAVE            &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                                              &mo 1        &kp N6  &kp N7  &kp N8     &kp N9    &kp N0          &kp MINUS
-&kp TAB              &kp Q      &kp W     &kp F     &kp P      &kp G   &to 2                                                                               &kp GRAVE    &kp J   &kp L   &kp U      &kp Y     &kp APOSTROPHE  &kp BSLH
-&skq LA(LEFT_ALT)    &kp A      &kp R     &kp S     &kp T      &kp D   &kp ESC          &kp EQUAL        &kp EQUAL      &kp LGUI       &kp RALT            &mo 2        &kp H   &kp N   &kp E      &kp I     &kp O           &kp SQT
-&skq LS(LEFT_SHIFT)  &kp Z      &kp X     &kp C     &kp V      &kp B                                     &kp HOME       &kp SLASH                                       &kp K   &kp M   &kp COMMA  &kp DOT   &kp SLASH       &kp BACKSPACE
-&mo 2                &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 3 BACKSPACE  &skq LEFT_SHIFT  &kp TAB        &kp RIGHT_GUI  &skq RIGHT_CONTROL  &lt 2 SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT        &mo 2
+&kp GRAVE            &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &tog 2                                                                        &mo 1        &kp N6  &kp N7  &kp N8     &kp N9    &kp N0          &kp MINUS
+&kp TAB              &kp Q      &kp W     &kp F     &kp P      &kp G   &to 2                                                                         &kp GRAVE    &kp J   &kp L   &kp U      &kp Y     &kp APOSTROPHE  &kp BSLH
+&skq LA(LEFT_ALT)    &kp A      &kp R     &kp S     &kp T      &kp D   &kp ESC          &kp EQUAL  &kp EQUAL      &kp LGUI       &kp RALT            &mo 2        &kp H   &kp N   &kp E      &kp I     &kp O           &kp SQT
+&skq LS(LEFT_SHIFT)  &kp Z      &kp X     &kp C     &kp V      &kp B                               &kp HOME       &kp SLASH                                       &kp K   &kp M   &kp COMMA  &kp DOT   &kp SLASH       &kp BACKSPACE
+&mo 2                &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 3 BACKSPACE  &td_mt     &kp TAB        &kp RIGHT_GUI  &skq RIGHT_CONTROL  &lt 2 SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT        &mo 2
             >;
         };
 
