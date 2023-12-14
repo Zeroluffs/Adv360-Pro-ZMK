@@ -80,6 +80,7 @@
             release-after-ms = <1000>;
             quick-release;
             ignore-modifiers;
+            label = "STICKY_KEY_QUICK_RELEASE";
         };
     };
 
