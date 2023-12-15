@@ -94,7 +94,7 @@
 
         td_0: td_0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_MACRO_TAP";
+            label = "TD_0";
             #binding-cells = <0>;
             bindings = <&skq RIGHT_ALT>, <&altab_macro>;
         };
