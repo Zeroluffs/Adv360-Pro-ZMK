@@ -92,7 +92,7 @@
             bindings = <&skq LEFT_SHIFT>, <&kt LEFT_SHIFT>;
         };
 
-        td_0: tap_dance_macro_tap {
+        td_0: td_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MACRO_TAP";
             #binding-cells = <0>;
