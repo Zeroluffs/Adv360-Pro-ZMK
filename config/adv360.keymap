@@ -31,7 +31,7 @@
             #binding-cells = <0>;
             bindings = <&macro_tap>, <&kp RIGHT_CONTROL &kp RIGHT_ALT &kp TAB>;
 
-            label = "ALTAB_MACR";
+            label = "ALTAB_MACRO";
         };
 
         #endif
