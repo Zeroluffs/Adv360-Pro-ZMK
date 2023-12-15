@@ -26,12 +26,12 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-        altab_macro: altab_macro {
+        new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp RIGHT_CONTROL &kp RIGHT_ALT &kp TAB>;
+            bindings = <&macro_tap>, <&kp RCTRL &kp RIGHT_ALT &kp TAB>;
 
-            label = "ALTAB_MACRO";
+            label = "NEW_MACRO";
         };
 
         #endif
