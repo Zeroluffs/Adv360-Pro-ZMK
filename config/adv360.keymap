@@ -91,13 +91,6 @@
             #binding-cells = <0>;
             bindings = <&skq LEFT_SHIFT>, <&kt LEFT_SHIFT>;
         };
-
-        td_0: td_0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_0";
-            #binding-cells = <0>;
-            bindings = <&skq RIGHT_ALT>, <&new_macro>;
-        };
     };
 
     macros {
