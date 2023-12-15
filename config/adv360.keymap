@@ -30,7 +30,15 @@
             compatible = "zmk,behavior-macro";
             label = "macro_version";
             #binding-cells = <0>;
-            bindings = <&kp RET>;
+            bindings = <&kp RET>, <&macro_press>, <&kp>;
+        };
+
+        altab_macro: altab_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp RIGHT_CONTROL &kp RIGHT_ALT &kp TAB>;
+
+            label = "ALTAB_MACRO";
         };
 
         #endif
@@ -90,6 +98,13 @@
             #binding-cells = <0>;
             bindings = <&skq LEFT_SHIFT>, <&kt LEFT_SHIFT>;
         };
+
+        td_0: tap_dance_macro_tap {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_MACRO_TAP";
+            #binding-cells = <0>;
+            bindings = <&skq RIGHT_ALT>, <&altab_macro>;
+        };
     };
 
     macros {
@@ -118,7 +133,7 @@
 &kp TAB              &kp Q      &kp W     &kp F     &kp P      &kp G   &to 2                                                                          &kp GRAVE    &kp J   &kp L   &kp U      &kp Y     &kp APOSTROPHE  &kp BSLH
 &skq LA(LEFT_ALT)    &kp A      &kp R     &kp S     &kp T      &kp D   &kp ESC          &kp EQUAL  &kp EQUAL      &kp LGUI        &kp RALT            &mo 2        &kp H   &kp N   &kp E      &kp I     &kp O           &skq RIGHT_ALT
 &skq LS(LEFT_SHIFT)  &kp Z      &kp X     &kp C     &kp V      &kp B                               &kp HOME       &kp SLASH                                        &kp K   &kp M   &kp COMMA  &kp DOT   &kp SLASH       &kp BACKSPACE
-&mo 2                &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 3 BACKSPACE  &td_mt     &kp TAB        &skq RIGHT_GUI  &skq RIGHT_CONTROL  &lt 2 SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT        &mo 2
+&mo 2                &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &lt 3 BACKSPACE  &td_0      &kp TAB        &skq RIGHT_GUI  &skq RIGHT_CONTROL  &lt 2 SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT        &mo 2
             >;
         };
 
