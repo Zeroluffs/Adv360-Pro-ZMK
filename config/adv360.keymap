@@ -13,7 +13,6 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &lt {
@@ -89,7 +88,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_MOD_TAP";
             #binding-cells = <0>;
-            bindings = <&skq LEFT_SHIFT>, <&kt LEFT_SHIFT>;
+            bindings = <&skq LEFT_SHIFT>, <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
     };
 
