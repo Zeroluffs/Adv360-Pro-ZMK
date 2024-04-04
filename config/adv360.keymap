@@ -144,11 +144,11 @@
 
         nav {
             bindings = <
-&trans  &trans         &trans            &trans           &trans       &trans     &trans                                           &trans  &trans    &trans          &trans           &trans     &trans  &trans
-&trans  &kp DELETE     &trans            &kp COLON        &kp UNDER    &kp PLUS   &kp PAGE_UP                                      &trans  &trans    &trans          &kp UP_ARROW     &trans     &trans  &trans
-&trans  &kp HOME       &kp END           &kp PRINTSCREEN  &kp MINUS    &kp EQUAL  &kp PG_DN    &trans  &trans      &trans  &trans  &trans  &kp CAPS  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT  &trans  &trans
-&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp K_COPY       &kp K_PASTE  &kp SEMI                        &trans      &trans                  &trans    &kp C_VOL_DN    &kp C_VOLUME_UP  &trans     &trans  &trans
-&trans  &trans         &trans            &trans           &trans                  &trans       &trans  &trans      &trans  &trans  &trans            &trans          &trans           &trans     &trans  &trans
+&trans  &trans         &trans            &trans           &trans       &trans     &trans                                           &trans  &trans            &trans             &trans             &trans           &trans  &trans
+&trans  &kp DELETE     &trans            &kp COLON        &kp UNDER    &kp PLUS   &kp PAGE_UP                                      &trans  &trans            &trans             &kp UP_ARROW       &trans           &trans  &trans
+&trans  &kp HOME       &kp END           &kp PRINTSCREEN  &kp MINUS    &kp EQUAL  &kp PG_DN    &trans  &trans      &trans  &trans  &trans  &kp CAPS          &kp LEFT_ARROW     &kp DOWN_ARROW     &kp RIGHT        &trans  &trans
+&trans  &kp LESS_THAN  &kp GREATER_THAN  &kp K_COPY       &kp K_PASTE  &kp SEMI                        &trans      &trans                  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans
+&trans  &trans         &trans            &trans           &trans                  &trans       &trans  &trans      &trans  &trans  &trans                    &trans             &trans             &trans           &trans  &trans
             >;
         };
 
