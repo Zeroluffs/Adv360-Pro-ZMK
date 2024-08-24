@@ -28,6 +28,16 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        skq: sticky_key_release {
+            compatible = "zmk,behavior-sticky-key";
+            label = "STICKY_KEY_RELEASE";
+            bindings = <&kp>;
+            #binding-cells = <1>;
+            release-after-ms = <1000>;
+            quick-release;
+            ignore-modifiers;
+        };
     };
 
     macros {
