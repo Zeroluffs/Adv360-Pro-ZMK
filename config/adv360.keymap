@@ -175,9 +175,9 @@
         layer_6 {
             bindings = <
 &kp PERIOD  &kp N1     &kp N2  &kp N3      &kp N4     &kp N5  &trans                                                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp M       &kp GRAVE  &kp F1  &kp F2      &kp F3     &kp F4  &trans                                                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp T       &kp A      &kp Q   &kp W       &kp E      &kp R   &tog 6     &trans        &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp P       &kp Z      &kp X   &kp D       &kp F      &kp B                            &trans       &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB     &kp GRAVE  &kp F1  &kp F2      &kp F3     &kp F4  &trans                                                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp T       &kp X      &kp Q   &kp W       &kp E      &kp R   &tog 6     &trans        &trans       &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp P       &kp Z      &kp A   &kp D       &kp F      &kp B                            &trans       &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &kp V       &trans     &trans  &kp ESCAPE  &kp ENTER          &kp SPACE  &kp LEFT_ALT  &kp ESC      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
